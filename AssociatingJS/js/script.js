@@ -6,3 +6,8 @@ age = 33; //definition
 
 var yearOfBirth = 1981; //declaring and defining on the same line
 
+var isStudent = false; //Boolean Variable
+
+var firstName = "Aaron"; 
+
+
