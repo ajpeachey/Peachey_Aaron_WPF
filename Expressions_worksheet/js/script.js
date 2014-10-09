@@ -31,3 +31,11 @@ var result = "Each person ate" + " " + calculation + " " + "slices of pizza at t
 
 console.log(result);
 
+// Slice of Pie part II
+var totalSlices = pizzaOrder + pizzaSlices;
+var sparkysPie = totalSlices % numPeople;
+
+    console.log(sparkysPie);
+
+//Average Shopping Bill
+
