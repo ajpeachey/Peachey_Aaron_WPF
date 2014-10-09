@@ -39,3 +39,10 @@ var sparkysPie = "Sparky got" + " " + totalSlices % numPeople + " " + "slices of
 
 //Average Shopping Bill
 
+var groceryBills = [128.56, 62.52, 105.26, 79.65, 89.25];
+var groceryTotal = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];
+var groceryAve = groceryTotal / 5
+
+var result = "You have spent a total of $" + groceryTotal + " " + "on groceries over 5 weeks." + " " + "That is an average of $" + groceryAve + " " + "per week.";
+
+console.log(result);
