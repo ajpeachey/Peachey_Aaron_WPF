@@ -16,9 +16,12 @@ console.log(result); // Printing the answer to width times height
 
 var dogsAgeHuman = 4;
 var dogsAgeDog = dogsAgeHuman * 7;
-var result = dogsAgeDog;
 
-console.log("Sparky is" dogsAgeHuman "human years old which is" result" in dog years.");
+var result = "Sparky is" + " " + dogsAgeHuman + " " + "human years old which is" + " " + dogsAgeDog + " " + "in dog years.";
+
+console.log(result);
 
 //Slice of Pie part 1
+
+
 
