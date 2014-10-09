@@ -11,3 +11,11 @@ var result = width * height; //The result of multiplying width times height
 console.log(result); // Printing the answer to width times height
 
 // This was a test to see if I had the general concept
+
+//Dog Years
+
+var dogsAgeHuman = 4
+var dogsAgeDog = dogsAgeHuman * 7
+var result = dogsAgeDog
+
+alert(result)
