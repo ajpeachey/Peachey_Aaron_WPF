@@ -33,7 +33,7 @@ console.log(result);
 
 // Slice of Pie part II
 var totalSlices = pizzaOrder + pizzaSlices;
-var sparkysPie = totalSlices % numPeople;
+var sparkysPie = "Sparky got" + " " + totalSlices % numPeople + " " + "slices of pizza.";
 
     console.log(sparkysPie);
 
