@@ -16,4 +16,3 @@ var muppetNames = ["Kermit", "Miss Piggy", "Gonzo"]; //0,1,2,
 
 muppetNames[1] = "Rizzo"; //change index #1 to Rizzo
 
-
