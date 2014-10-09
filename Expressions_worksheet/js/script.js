@@ -23,5 +23,11 @@ console.log(result);
 
 //Slice of Pie part 1
 
+var pizzaSlices = 8;
+var numPeople = 47;
+var pizzaOrder = 15;
+var calculation = pizzaOrder * pizzaSlices / numPeople;
+var result = "Each person ate" + " " + calculation + " " + "slices of pizza at the party";
 
+console.log(result);
 
