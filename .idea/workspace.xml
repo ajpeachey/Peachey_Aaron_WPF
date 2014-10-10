@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265cbb54-9b65-431e-9d74-b3851c6d69a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Industry/index.html" afterPath="$PROJECT_DIR$/Expressions_Industry/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Industry/js/script.js" afterPath="$PROJECT_DIR$/Expressions_Industry/js/script.js" />
     </list>
     <ignored path="Peachey_Aaron_WPF.iws" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14756945" vertical-offset="0" max-vertical-offset="1728">
-              <caret line="15" column="144" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
+            <state vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="1728">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -493,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14756945" vertical-offset="0" max-vertical-offset="1728">
-          <caret line="15" column="144" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
+        <state vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="1728">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
