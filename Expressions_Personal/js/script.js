@@ -11,3 +11,5 @@ var otherContributions = prompt("Will there be any money other than grants and l
 var result = totalTuition - grants - otherContributions
 
 var toPrint = "Your total student loan debt will be" + " " + result
+
+alert(toPrint)
