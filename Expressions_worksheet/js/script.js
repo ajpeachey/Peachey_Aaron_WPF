@@ -46,3 +46,18 @@ var groceryAve = groceryTotal / 5
 var result = "You have spent a total of $" + groceryTotal + " " + "on groceries over 5 weeks." + " " + "That is an average of $" + groceryAve + " " + "per week.";
 
 console.log(result);
+
+//Discounts
+
+var orginalPrice = 125.00
+var discount = 20
+var itemDescrip = "Little Black Dress"
+var salesTax = 8.9
+var discountAmount = 125 * .2
+var priceNoTax = orginalPrice - discountAmount
+var taxAmount = priceNoTax * .089
+var priceWithTax = taxAmount + priceNoTax
+
+var endResult = "Your" + " " + itemDescrip + " " + "was orginally $" + orginalPrice + " " + ",but after a" + " " + discount + "% discount, it is now $" + priceNoTax + " " + "without tax, and $" + priceWithTax + " " + "with tax.";
+
+console.log(endResult)
