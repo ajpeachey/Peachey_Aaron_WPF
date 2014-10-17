@@ -6,7 +6,7 @@
 
 //Last Chance For Gas!
 
-var mpg = 14
+var mpg = 40
 var percentTank = .25 //percent of tank left in decimal form
 var tankCap = 25
 var gallonsLeft = tankCap * percentTank
@@ -18,3 +18,4 @@ if(distance >= 200){
 }else {
     console.log("You only have" + " " + gallonsLeft + " " + "gallons of gas in your tank, better get gas now while you can!")
 }
+
