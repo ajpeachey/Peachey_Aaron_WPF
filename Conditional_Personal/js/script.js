@@ -17,7 +17,7 @@ if(hoursSlept || hoursSleptTwo >= hoursSleepNeeded) {
     alert("You are getting" + " " + hoursPerDay + " " + "hours per night of sleep. That amount will help keep you healthy and give you" + " " + hoursLeftOver + " " + "hours of free time each week!")
 } else{
     alert("You should really be getting more sleep! Right now you have" + " " + hoursLeftOver + " " + "hours of free time each week, you have time to spare.")
-}
+};
 
 
 
