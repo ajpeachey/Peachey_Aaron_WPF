@@ -13,11 +13,12 @@ var hoursSleepNeeded = 56
 var hoursPerDay = Number(hoursSlept) / 7
 
 
-if(hoursSlept || hoursSleptTwo >= hoursSleepNeeded) {
+if(hoursSlept >= hoursSleepNeeded) {
     alert("You are getting" + " " + hoursPerDay + " " + "hours per night of sleep. That amount will help keep you healthy and give you" + " " + hoursLeftOver + " " + "hours of free time each week!")
-} else{
+}   else{
     alert("You should really be getting more sleep! Right now you have" + " " + hoursLeftOver + " " + "hours of free time each week, you have time to spare.")
 };
+
 
 
 
