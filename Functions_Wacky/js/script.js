@@ -10,15 +10,16 @@ var peanutBackUp = +prompt("How many pounds are in the peanut reserves?");
 var daysLeft = +prompt("How many days until the next peanut shipment?")
 var poundsElephantEats = 200 * daysLeft
 
+function peanutCalc(peanutsOnHand, peanutBackUp, daysLeft){
+    var survive = peanutsOnHand + peanutBackUp / daysLeft
+    return survive;
+}
+
+peanutCalc(peanutsOnHand, peanutBackUp, daysLeft)
 
 
-
-
-
-
-
-if(peanutsOnHand >= poundsElephantEats || peanutBackUp >= poundsElephantEats){
-    alert("You have enough peanuts to survive!")
+if(peanutCalc(peanutsOnHand, peanutBackUp, daysLeft) >= poundsElephantEats || peanutsOnHand >= poundsElephantEats || peanutBackUp >= poundsElephantEats){
+    alert("Looks like you have enough peanuts for the elephants to survuve!")
 }else{
-    alert("Watch out! Those elephants are going to get hungry and they need to eat something!")
+    alert("Watch out! Those elephants are going to get hungry, and they have to eat something!")
 }
