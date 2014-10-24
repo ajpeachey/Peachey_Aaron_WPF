@@ -3,7 +3,7 @@
  Aaron Peachey
  10/23/14
  */
-
+/**
 var item = prompt("Today we are looking to buy a new car. Would you like to continue to see if it is possible?");
 // prompt to start the process
 if(item == "yes"){
@@ -24,7 +24,7 @@ function carcalc() { // basic function
     } // if/else statement inside of the function to alert the proper math
 
 };
-
+*/
 
 // same program using a ternary
 
@@ -41,8 +41,8 @@ function carcalc() { // basic function
     var bank = +prompt("How much money is in your bank account right now?");
     var cash = +prompt("How much cash do you have on hand?")
     var percent = carCost * .20
-
-  percent = (bank + cash >= percent) ? alert("You have the necessary funds to buy your new car! ") : alert("You have the necessary funds to buy your new car! ")
+    var canIBuy;
+  canIBuy = (bank + cash >= percent) ? alert("You have the necessary funds to buy your new car! ") : alert("I'm sorry, it looks like you have some more saving to do before you can buy the car.")
 
      // ternary statement inside of the function to alert the proper math
 
