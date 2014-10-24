@@ -19,7 +19,7 @@ peanutCalc(peanutsOnHand, peanutBackUp, daysLeft); //calling the function
 
 
 if(peanutCalc(peanutsOnHand, peanutBackUp, daysLeft) >= poundsElephantEats || peanutsOnHand >= poundsElephantEats || peanutBackUp >= poundsElephantEats){
-    alert("Looks like you have enough peanuts for the elephants to survuve!")
+    alert("Looks like you have enough peanuts for the elephants to survive!")
 }else{
     alert("Watch out! Those elephants are going to get hungry, and they have to eat something!")
 };// if statement
