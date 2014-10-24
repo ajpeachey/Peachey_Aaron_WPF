@@ -16,5 +16,6 @@ var total = "The total fee for this website will be $" + feeCalc + "."
     alert(total)
 };
 
-siteFees(baseFee,hoursWorked,hourlyRate)'' //calling the function to present the result
+siteFees(baseFee,hoursWorked,hourlyRate) //calling the function to present the result
 
+siteFees(baseFee,hoursWorked,hourlyRate)
